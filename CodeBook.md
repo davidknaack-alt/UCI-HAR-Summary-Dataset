@@ -1,4 +1,6 @@
 ## Code Book
+##### David Knaack
+##### Aug 3, 2019
 
 This document describes the fields and values in the target dataset, ‘UCI-HAR-Summary-Dataset.txt’,
 created from the run_analysis.R script.
@@ -51,7 +53,7 @@ The target dataset includes the following fields:
     + fBodyGyroMag
     + fBodyGyroJerkMag
 
-####Notes on Feature Selection from the Source Dataset documentation
+#### Notes on Feature Selection from the Source Dataset documentation
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals 
 tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a 
