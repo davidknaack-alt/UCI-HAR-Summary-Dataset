@@ -1,7 +1,6 @@
-title: "README.md"
-author: "David Knaack"
-date: "Aug 3, 2019"
-output: html_document
+## README.md
+author: David Knaack
+date: Aug 3, 2019
 
 Summarized Dataset of a Human Activity Recognition Using Smartphones Experiment
 Version 1.0
@@ -19,7 +18,7 @@ description is available at the site where the data was obtained:
 
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones> 
 
-####For each record in the source dataset it is provided:
+#### For each record in the source dataset it is provided:
 
   - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
   - Triaxial Angular velocity from the gyroscope. 
@@ -28,7 +27,7 @@ description is available at the site where the data was obtained:
   - An identifier of the subject who carried out the experiment.
 
 
-###About the Target Dataset
+### About the Target Dataset
 
 The run_analysis.R script R package uses the dplyr and tidyr R packages to process the source data as follows:
 
@@ -46,21 +45,21 @@ The run_analysis.R script R package uses the dplyr and tidyr R packages to proce
 8. Generates a second dataset that contains the average of each variable for each activity and each subject.  This is 
    written out to as a text file called, 'UCI-HAR-Summary-Dataset.txt'
 
-####To regenerate the target dataset:
+#### To regenerate the target dataset:
 1. Clone a local copy of this repository without making any modifications to the file structure.
 2. Install the dependent dplyr and tidyr R packages.
 3. Source the run_analysis.R script in RStudio or R (v3.2.1 or higher)
 4. The target dataset will be written to the 'UCI-HAR-Summary-Dataset.txt' file. 
 
-###This repository includes the following files:
+### This repository includes the following files:
 
-  - 'README.txt'
+  - 'README.md'
 
   - 'Code-Book.txt': Shows information about the variables used on the feature vector.
 
   - 'run_analysis.R' : R script that processes the source datasets to write out a smaller, summarized version.
 
-####Specific source files in 'UCI HAR Dataset' used by the R Script:
+#### Specific source files in 'UCI HAR Dataset' used by the R Script:
 
   - 'features.txt': List of all features.
 
