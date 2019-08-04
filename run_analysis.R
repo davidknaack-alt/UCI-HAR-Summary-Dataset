@@ -108,3 +108,7 @@ tidy_dataset <- all_t %>%
 # Write output of summary dataset to a csv file
 
 write.csv(tidy_dataset, "UCI-HAR-Summary-Dataset.csv", row.names = FALSE)
+
+# Write output of summary dataset to a txt file
+
+write.table(tidy_dataset, "UCI-HAR-Summary_Dataset.txt", row.names = FALSE)
