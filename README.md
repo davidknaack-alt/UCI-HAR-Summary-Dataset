@@ -1,9 +1,7 @@
----
 title: "README.md"
 author: "David Knaack"
 date: "Aug 3, 2019"
 output: html_document
----
 
 Summarized Dataset of a Human Activity Recognition Using Smartphones Experiment
 Version 1.0
