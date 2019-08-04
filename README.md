@@ -12,7 +12,7 @@ accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the 
 training data and 30% the test data. 
 
-###About the Source Dataset
+### About the Source Dataset
 The original source data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full 
 description is available at the site where the data was obtained: 
 
@@ -49,13 +49,13 @@ The run_analysis.R script R package uses the dplyr and tidyr R packages to proce
 1. Clone a local copy of this repository without making any modifications to the file structure.
 2. Install the dependent dplyr and tidyr R packages.
 3. Source the run_analysis.R script in RStudio or R (v3.2.1 or higher)
-4. The target dataset will be written to the 'UCI-HAR-Summary-Dataset.txt' file. 
+4. The target dataset will be written to the 'UCI-HAR-Summary-Dataset.csv' file. 
 
 ### This repository includes the following files:
 
   - 'README.md'
 
-  - 'Code-Book.txt': Shows information about the variables used on the feature vector.
+  - 'CodeBook.md': Shows information about the variables used on the feature vector.
 
   - 'run_analysis.R' : R script that processes the source datasets to write out a smaller, summarized version.
 
