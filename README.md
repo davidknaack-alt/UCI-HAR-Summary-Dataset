@@ -1,6 +1,6 @@
 ## README.md
-author: David Knaack
-date: Aug 3, 2019
+##### David Knaack
+##### Aug 3, 2019
 
 Summarized Dataset of a Human Activity Recognition Using Smartphones Experiment
 Version 1.0
