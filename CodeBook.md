@@ -77,5 +77,5 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were created from these signals that are extracted and output in the target dataset are: 
 
-mean(): Mean value
-std(): Standard deviation
+  + mean(): Mean value
+  + std(): Standard deviation
