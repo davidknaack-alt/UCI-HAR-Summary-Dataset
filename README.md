@@ -49,7 +49,7 @@ The run_analysis.R script R package uses the dplyr and tidyr R packages to proce
 1. Clone a local copy of this repository without making any modifications to the file structure.
 2. Install the dependent dplyr and tidyr R packages.
 3. Source the run_analysis.R script in RStudio or R (v3.2.1 or higher)
-4. The target dataset will be written to the 'UCI-HAR-Summary-Dataset.csv' file. 
+4. The target dataset will be written to the 'UCI-HAR-Summary-Dataset.csv' file and the 'UCI-HAR-Summary-Dataset.txt' file. 
 
 ### This repository includes the following files:
 
